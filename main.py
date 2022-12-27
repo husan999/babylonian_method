@@ -1,7 +1,7 @@
 def main(S, d):
     a=(S-d**2)/(2*d)
     b=a+d
-    x=b-a**2/2*b
+    x=b-(a**2)/(2*b)
     '''create a babylonian function.
     
     Args:
@@ -12,4 +12,4 @@ def main(S, d):
         float: result
     '''
     return x
-print(main(16,4))
+print(main(26,5))
