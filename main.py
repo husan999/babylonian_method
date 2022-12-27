@@ -12,5 +12,4 @@ def main(S, d):
         float: result
     '''
     return x
-
 print(main(16,4))
